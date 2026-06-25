@@ -1,0 +1,13 @@
+2026-06-23 20:47:02,483 | ERROR | db_utils | Database initialization failed: 'sqlite3.Cursor' object does not support the context manager protocol (missed __exit__ method)
+Traceback (most recent call last):
+  File "C:\Users\inesh\logistics-doc-extractor\db_utils.py", line 120, in init_db
+    with conn.cursor() as cursor:
+         ~~~~~~~~~~~^^
+TypeError: 'sqlite3.Cursor' object does not support the context manager protocol (missed __exit__ method)
+2026-06-23 20:47:26,016 | ERROR | db_utils | Database initialization failed: 'sqlite3.Cursor' object does not support the context manager protocol (missed __exit__ method)
+Traceback (most recent call last):
+  File "C:\Users\inesh\logistics-doc-extractor\db_utils.py", line 120, in init_db
+    with conn.cursor() as cursor:
+         ~~~~~~~~~~~^^
+TypeError: 'sqlite3.Cursor' object does not support the context manager protocol (missed __exit__ method)
+2026-06-23 20:52:56,313 | WARNING | root | Non-fatal migration info (Invoices column check): duplicate column name: invoice_date

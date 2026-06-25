@@ -1,0 +1,10 @@
+# Hide the secret environment variables box
+.env
+
+# Hide local database files so you don't leak corporate records
+*.db
+shipments.db
+
+# Hide temporary python cache folders
+__pycache__/
+.pytest_cache/
