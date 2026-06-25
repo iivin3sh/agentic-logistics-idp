@@ -1,10 +1,10 @@
-# 🚢 Autonomous Agentic Logistics IDP Hub (Proof of Concept)
+# Autonomous Agentic Logistics IDP Hub (Proof of Concept)
 
 An enterprise-grade, intelligent document processing (IDP) and compliance auditing application built for global supply chain operations. This system transitions processing from rigid textual data extraction into an autonomous reasoning loop capable of structural schema enforcement, text-to-SQL business intelligence querying, and tool-driven discrepancy self-auditing.
 
 ---
 
-## 🌟 Core Architectural Features
+## Core Architectural Features
 
 * **Multimodal Extraction Pipeline:** Leverages `gemini-2.5-flash` with native structured Pydantic response schemas to cleanly parse chaotic logistical documentation (PDFs/Images) into structured data matrices.
 * **Autonomous Analytical Auditor:** Employs a tool-calling reasoning agent loop that self-determines tracking lookups across isolated database architectures to surface weight variances, missing documents, and vendor name irregularities.
